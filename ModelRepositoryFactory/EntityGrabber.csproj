@@ -8,6 +8,9 @@
     <Description>Library used as a template to do crud operation for an entity</Description>
     <PackageId>EntityGrabber</PackageId>
     <Copyright>2020</Copyright>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
