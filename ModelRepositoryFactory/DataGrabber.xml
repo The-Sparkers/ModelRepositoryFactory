@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EntityGrabber</name>
+    </assembly>
+    <members>
+        <member name="T:EntityGrabber.IModelRepository`2">
+            <summary>
+            Interface for ModelRepository
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="P"></typeparam>
+        </member>
+        <member name="T:EntityGrabber.ModelRepository`2">
+            <summary>
+            Abstract class to be inherited for a model entity
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="P"></typeparam>
+        </member>
+        <member name="M:EntityGrabber.ModelRepository`2.#ctor(System.String)">
+            <summary>
+            Constructor to be intitialize with a connection string
+            </summary>
+            <param name="connectionString"></param>
+        </member>
+        <member name="P:EntityGrabber.ModelRepository`2.Connection">
+            <summary>
+            Connection to the Database.
+            </summary>
+        </member>
+        <member name="M:EntityGrabber.ModelRepository`2.GetIteratableData(System.String,EntityGrabber.SQLCommandTypes,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Used to get the data from the database into tabular form.
+            </summary>
+            <param name="query">Query command to fetch the data</param>
+            <param name="type">Type of the command</param>
+            <param name="parameters">Parameters if required</param>
+            <returns>Iterative Dataset</returns>
+        </member>
+        <member name="M:EntityGrabber.ModelRepository`2.GetValue(System.String,EntityGrabber.SQLCommandTypes,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Used to get the data from the database as a single value.
+            </summary>
+            <param name="query">Query command to fetch the data</param>
+            <param name="type">Type of the command</param>
+            <param name="parameters">Parameters if required</param>
+            <returns>Single Object Value</returns>
+        </member>
+        <member name="M:EntityGrabber.ModelRepository`2.ExecuteQuery(System.String,EntityGrabber.SQLCommandTypes,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Used to execute query.
+            </summary>
+            <param name="query">Query command to fetch the data</param>
+            <param name="type">Type of the command</param>
+            <param name="parameters">Parameters if required</param>
+        </member>
+    </members>
+</doc>

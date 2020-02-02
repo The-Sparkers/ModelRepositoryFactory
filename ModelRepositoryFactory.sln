@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelRepositoryFactory", "ModelRepositoryFactory\ModelRepositoryFactory.csproj", "{86A905A9-84F3-48EB-9F2A-ACD6B2892685}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityGrabber", "ModelRepositoryFactory\EntityGrabber.csproj", "{86A905A9-84F3-48EB-9F2A-ACD6B2892685}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

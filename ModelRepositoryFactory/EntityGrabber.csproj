@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Muhammad Umair Tahir</Authors>
+    <Company>Sparkerz</Company>
+    <Product>Entity Grabber</Product>
+    <Description>Library used as a template to do crud operation for an entity</Description>
+    <PackageId>EntityGrabber</PackageId>
+    <Copyright>2020</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>d:\New folder\Visual Studio 2017\Projects\ModelRepositoryFactory\ModelRepositoryFactory\DataGrabber.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
+  </ItemGroup>
+
+</Project>
